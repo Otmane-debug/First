@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galerie.css">
+    <title>Moroccan Airlines</title>
+</head>
+<body>
+    <header>
+        <h1 class="titre" > Moroccan Airlines </h1>
+        <div class="menu">
+            <a class="menu2" href="index.html">Acceuil</a>
+            <a class="menu2" href="presentation.html">Présentation</a>
+            <a class="menu2" href="galerie.html">Galerie</a>
+            <a class="menu2" href="#contact">Contact</a>
+        </div>
+    </header>
+    <main id="contact">
+        <h1 class="contact_titre">On y va ?</h1>
+        <p style="font-size: 1.2rem">Qu'attendez-vous pour profiter de vacances exceptionnelles à un prix exceptionnel ?
+         Envoyez-nous
+        votre demande par mail grâce au formulaire ci-dessous et nous vous renverrons un devis
+        <strong>gratuit</strong> sous 48h.</p>
+                        
+        <form action="mailto:bittaouri.r@hotmail.com " method="POST" enctype="text/plain">
+            <fieldset>
+                <legend><bold>Contact :</bold></legend>
+                        <table>
+                            <tr>
+                                <td><label for="nom">Votre nom et prénom : </label></td>
+                                <td><input style="color: black;" type="text">
+                            </tr>
+                            <tr>
+                        
+                                <td><label for="email">  Votre email :  </label></td>
+                                <td><input style="color: black;" type="email" id="email" name="Votre email"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="départ">Votre lieu de résidence :</label></td>
+                                <td><input style="color: black;" type="text" id="départ" name="Votre lieu de départ "></td>
+                            </tr>
+                            <tr>
+                                <td><label for="destination ">Destination souhaitée :</label></td>
+                                <td><input style="color: black;" type="text" id="destination" name="Votre destination souhaitée "></td>
+                            </tr>
+                            <tr>
+                                <td><label for="duree">Durée du séjour :</label></td>
+                                <td><input style="color: black;" type="text" id="duree" name="Durée du séjour"></td>
+                            </tr>
+                        </table>
+                        
+                        <input style="color: black;" type="submit" name="ok" id="submit">
+                        <p>* Vous serez redirigé vers votre messagerie.<br>Il vous suffira d'envoyer le mail automatiquement
+                            créé.</p>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p style="text-align: center;">Projet tp programmation web - &copy;  -Moroccan Airlines </p>
+    </footer>
+    </body>
+</html>

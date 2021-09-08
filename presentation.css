@@ -1,0 +1,67 @@
+*{
+    margin: 20px;
+    color: white;
+}
+
+body{
+    background: url('/images/wallpaper.jpg');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    margin-top: 5rem;
+}
+
+.titre{
+    text-align: center;
+    font-size: 4rem;
+    text-align: 300px 100px;
+}
+
+.menu{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.menu2{
+    margin-left: 1.2cm;
+    margin-right: 1.2cm;
+}
+
+main{
+    margin-top: 10rem;
+    border-left: double;
+    border-right: double;
+    margin-bottom: 10rem;
+}
+
+.transport_image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presontation_titre{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: black;
+    background-color: white;
+}
+
+.visites_image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plaisir_image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
