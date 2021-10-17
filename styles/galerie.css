@@ -45,31 +45,52 @@ main{
     background-color: white;
 }
 
-.galerie_image1{
+#galerie_image1{
     width: 50%;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     
 }
 
-.galerie_image2{
+#galerie_image2{
     width: 50%;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    display: none;
 }
 
-.galerie_image3{
+#galerie_image3{
     width: 50%;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    display: none;
+
 }
 
-.galerie_image4 {
+#galerie_image4 {
     width: 50%;
+    height: 500px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    display: none;
+
+}
+
+.action{
+    width: 20%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+input{
+    color: black;
+    border-radius: 15px 50px;
+    padding: 5px;
 }

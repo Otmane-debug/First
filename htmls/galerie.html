@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/galerie.css">
+    <link rel="stylesheet" href="../styles/galerie.css">
+    <script src="../scripts/galerie.js" type="module"></script>
     <title>Moroccan Airlines</title>
 </head>
 <body>
@@ -20,10 +21,14 @@
 
     <main id="galerie">
         <h1 class="galrie_titre">Galerie :</h2>
-            <img class="galerie_image1" src="/images/galerie1.jpg" alt="ballon">
-            <img class="galerie_image2" src="/images/galerie2.png" alt="maldives">
-            <img class="galerie_image3" src="/images/galerie3.jpg" alt="paris">
-            <img class="galerie_image4" src="/images/galerie4.jpg" alt="merzouga">
+            <img id="galerie_image1" src="/images/galerie1.jpg" alt="ballon" value="1">
+            <img id="galerie_image2" src="/images/galerie2.png" alt="maldives" value="2">
+            <img id="galerie_image3" src="/images/galerie3.jpg" alt="paris" value="3">
+            <img id="galerie_image4" src="/images/galerie4.jpg" alt="merzouga" value="4">
+            <div class="action">
+                <input id="back" type="submit" value="Back" >
+                <input id="next" type="submit" value="Next" >
+            </div>
     </main>
     
     <footer>
