@@ -5,9 +5,10 @@ let bn = document.querySelector("#next");
 
 bb.onclick = () => fb();
 bn.onclick = () => fn();
-let action = setInterval(f, 4000);
+let action = setInterval(f, 2750);
 
 function fn() {
+    clearInterval(action);
     let i = document.getElementById(`galerie_image${x}`);
     i.style.display = "none";
     x++;
@@ -18,6 +19,7 @@ function fn() {
 }
 
 function fb() {
+    clearInterval(action);
     let i = document.getElementById(`galerie_image${x}`);
     i.style.display = "none";
     x--;
